@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DsoMusicWPF", "DsoMusicWPF\DsoMusicWPF.csproj", "{313451F2-8DAB-4B85-B287-4ABB3BB34A42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{6FC9E9AB-5006-44AB-A92F-37CAC9CE643D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{851F2FEB-EA3B-4C74-ABAF-D321F194F021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5131990E-320C-4CBD-930A-00B5970ABBED}"
+	ProjectSection(SolutionItems) = preProject
+		Hitokoto.cs = Hitokoto.cs
+		KuwoSearchData.cs = KuwoSearchData.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313451F2-8DAB-4B85-B287-4ABB3BB34A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313451F2-8DAB-4B85-B287-4ABB3BB34A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313451F2-8DAB-4B85-B287-4ABB3BB34A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313451F2-8DAB-4B85-B287-4ABB3BB34A42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{851F2FEB-EA3B-4C74-ABAF-D321F194F021} = {6FC9E9AB-5006-44AB-A92F-37CAC9CE643D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6B19B05-1D9A-4F49-9389-1A12BAC9D07E}
+	EndGlobalSection
+EndGlobal

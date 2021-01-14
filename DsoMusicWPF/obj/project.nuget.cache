@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WOoMg5L4N/4e3X1WO1bSoiv6Uc2qwyItYu7aV4TPIDaILyR9bv4DfcW+GmLOfdbyG1jkbcm2xX6WLPHS3o/nYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\24568\\Documents\\GitHub\\DsoMusic-WPF\\DsoMusicWPF\\DsoMusicWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\24568\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
