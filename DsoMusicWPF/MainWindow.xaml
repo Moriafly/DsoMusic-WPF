@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DsoMusicWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1000" WindowStyle="None" AllowsTransparency="True" ResizeMode="CanResizeWithGrip">
+        Title="MainWindow" Height="600" Width="1000" WindowStyle="None"  AllowsTransparency="True" ResizeMode="NoResize">
     <Window.Resources>
         <Style x:Key="style_default" TargetType="Button">
             <Setter Property="FontSize" Value="20"/>
@@ -22,8 +22,10 @@
             <RowDefinition />
             <RowDefinition Height="80" />
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Background="#FFFF4141">
+        <Grid Name="TitleBar" MouseMove="TitleBar_MouseMove" Grid.Row="0" Background="#FFFF4141">
             <TextBlock Text="Dso Music WPF" VerticalAlignment="Center" Margin="20 0 0 0" FontSize="14" Foreground="#DDDDDD"/>
+            <TextBox Name="SearchTextBox" Height="32" Width="300"/>
+            <Button Name="SearchButton" Click="SearchButton_Click" Width="50" HorizontalAlignment="Right"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -50,6 +52,9 @@
                 <ColumnDefinition />
                 <ColumnDefinition Width="200" />
             </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <TextBlock Name="SongNameTextBloack" Text="音乐" Margin="10" FontSize="14"/>
+            </Grid>
             <Grid Grid.Column="1">
                 <Button x:Name="ButtonPlayOrPause" Click="ButtonPlayOrPause_Click"/>
             </Grid>

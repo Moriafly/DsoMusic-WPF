@@ -9,12 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{6FC9E9AB-500
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{851F2FEB-EA3B-4C74-ABAF-D321F194F021}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5131990E-320C-4CBD-930A-00B5970ABBED}"
-	ProjectSection(SolutionItems) = preProject
-		Hitokoto.cs = Hitokoto.cs
-		KuwoSearchData.cs = KuwoSearchData.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

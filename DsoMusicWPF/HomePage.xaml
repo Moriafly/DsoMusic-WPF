@@ -9,6 +9,12 @@
       Title="HomePage">
 
     <Grid>
-        <TextBlock Text="主页" />
+        <ListView x:Name="ListView" SelectionChanged="ListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding SONGNAME}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Page>
